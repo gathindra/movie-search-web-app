@@ -25,7 +25,7 @@ class MovieSearcher extends Component {
 
     showResult = (data) => {
       // Set the movie result to primary array
-      this.setState({ movieResults: data });
+      this.setState({ movieResults: data.results });
     }
 
     handleInputChange = () => {
