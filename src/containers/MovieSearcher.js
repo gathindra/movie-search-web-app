@@ -9,7 +9,10 @@ class MovieSearcher extends Component {
     state = {
         error: false,
         query: '',
-        movieResults: []
+        movieResults: [],
+        totalResults: 0,
+        totalPages: 0,
+        displayIndex: 1
       }
 
     searchMovies = () => {
@@ -25,7 +28,12 @@ class MovieSearcher extends Component {
 
     showResult = (data) => {
       // Set the movie result to primary array
-      this.setState({ movieResults: data.results });
+      this.setState({ 
+        movieResults: data.results,
+        totalResults: data.total_results,
+        totalPages: data.total_pages,
+        displayIndex: data.page
+      });
     }
 
     handleInputChange = () => {
