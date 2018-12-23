@@ -14,4 +14,6 @@ This is a simple web front-end which connects to The Movie DB API via intermedia
 ### $ npm start
 
 #### Caveats
-Depends on https://github.com/gathindra/MovieDBSearchBroker service or https://github.com/gathindra/moviedb-search-broker-node.
+Depends on 
+https://github.com/gathindra/MovieDBSearchBroker service or 
+https://github.com/gathindra/moviedb-search-broker-node.
