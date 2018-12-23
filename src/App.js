@@ -7,11 +7,8 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <br/>
-        <br/>
-        <br/>
         <MovieSearcher />
-        </div>
+      </div>
     );
   }
 }

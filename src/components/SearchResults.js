@@ -15,8 +15,6 @@ const SearchResults = (props) => {
                 <br />
             </div>
         </div>
-        
-        
       ));
       return <ul>{options}</ul>;
 }
